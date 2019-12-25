@@ -1,0 +1,45 @@
+<div  class = "sideContainer" style = "overflow-y: auto;">
+      
+                    
+          <div class="row">
+
+            <div class="image-cropper">
+
+            <img src="assets/images\shailja.jpg" class="img-fluid z-depth-1 rounded-circle"
+              alt="Responsive image">
+              
+          
+            </div>
+
+          </div>
+      <br>
+            <div>
+                <h3>Shailja Shukla</h3>
+                <h6>Fullstack Developer</h6>
+            </div>
+
+
+        <div class = "elements">
+                <mat-nav-list >
+                <a mat-list-item  routerLink ="/about">About</a>
+                <hr color="DimGrey" style="margin-top : 10px">
+                <a mat-list-item  routerLink="/work">Work</a>
+                <hr color="DimGrey" style="margin-top : 10px">
+                <a mat-list-item  routerLink="/skills">Skills</a>
+                <hr color="DimGrey" style="margin-top : 10px">
+                <a mat-list-item  routerLink="/education">Education</a>
+                <hr color="DimGrey" style="margin-top : 10px">
+                <a mat-list-item  routerLink="/contact">Contact</a>
+              </mat-nav-list>
+        </div>
+</div>
+        
+      <mat-sidenav-content
+      [ngStyle]="{ 'margin-left.px': '260px' , 'background-color': 'rgb(253, 193, 173)'}"
+      >
+            <!-- <mat-selection-list> -->
+                <router-outlet></router-outlet>
+            <!-- </mat-selection-list>  -->
+      </mat-sidenav-content>
+
+

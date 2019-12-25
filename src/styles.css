@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/* for sidenav to take whole page */
+html, body { 
+    margin: 0;
+    height: 100%;
+    
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(70, 20, 20);
+   
+    /* border-radius: 10px;  */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:  #2e090d;
+     
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:  #6d232d; 
+  }
+  
+  
