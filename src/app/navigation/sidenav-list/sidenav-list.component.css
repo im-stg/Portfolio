@@ -1,6 +1,6 @@
 .containerStyle {
     height: 100%;
-    background-color: #55222a;
+    background-color: rgb(32, 32, 32);
     
     }
 
@@ -11,7 +11,7 @@
   
   .sidenav {
     width: 260px;
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(32, 32, 32);
    
   
     /* background-color: rgb(6, 54, 8); */
@@ -50,7 +50,7 @@
     }
 
     .mat-list-item:hover{
-      background:#521e25;
+      background:rgb(51, 50, 50);
 }
 
 
@@ -62,7 +62,7 @@
     border: thick;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #55222a;
+    background-color: rgb(32, 32, 32);
   }
   
   .row {
@@ -113,17 +113,17 @@
  }
 
   .mat-card{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(32, 32, 32);
     color: rgb(218, 190, 142);
   }
 
   .mat-list{
-    background-color: rgb(7, 7, 7);
+    background-color: rgb(32, 32, 32);
     color: rgb(218, 190, 142);
   }
 
   .mat-list-item{
-    color: rgba(255, 255, 255, 0.5);
+    color: wheat;
 }
 
   
@@ -133,7 +133,7 @@
 }
   
 ::ng-deep .mat-drawer {
-  background-color: #55222a;
+  background-color: rgb(32, 32, 32);
   color: rgba(0,0,0,.87);
   overflow-y: auto;
   }

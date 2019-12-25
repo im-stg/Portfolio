@@ -42,7 +42,8 @@
     width: 240px;
     margin: 0px;
     -moz-box-sizing: 0;
-    background-color: #55222a;
+    /* background-color: #55222a; */
+    background-color: rgb(32, 32, 32);
     box-sizing: border-box;
     position:fixed;
     overflow-y: scroll;
@@ -64,6 +65,7 @@
   a{
     
     text-align: center;
+    
   }
   
   a:hover{
@@ -74,7 +76,8 @@
     }
 
     .mat-list-item:hover{
-      background:#521e25;
+      /* background:#521e25; */
+      background:rgb(51, 50, 50);
 }
   
   .elements{
@@ -84,12 +87,13 @@
     border: thick;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #55222a;
+    color:wheat;
+    /* background-color: #55222a; */
    
   }
   
   .row {
-    margin-top: 30px;
+    margin-top: 50px;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -146,7 +150,7 @@
   }
 
   .mat-list-item{
-        color: rgba(255, 255, 255, 0.5);
+        color: wheat;
   }
   
 .mat-toolbar-row, .mat-toolbar-single-row {
